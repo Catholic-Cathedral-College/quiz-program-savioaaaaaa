@@ -5,7 +5,6 @@ answer=input("you will name the home country of each car manufacturer, it will g
 clear()
 
 points = 0
-
 if answer.lower() == "a":
   answer = "a"
 
@@ -15,30 +14,30 @@ print("Question number One, \nWhich country is citron's home country?")
 print("The possible answers are,  \nA=Belgium\nB=France\nC=Japan\nD=China")
 answer=input()
 
-global points
 
-if answer1 == 'a':
+
+if answer == 'a':
     points -= 0
-      print('This answer is false, your points: {}'.format(points))
+    print('This answer is false, your points: {}'.format(points))
 
-elif answer1 == 'b':
+elif answer == 'b':
       
       points += 1
       print('This answer is correct, your points: {}'.format(points))
 
-elif answer1 == 'c':
+elif answer == 'c':
       
       points -= 0
       print('This answer is false, your points: {}'.format(points))
 
-elif answer1 == 'd':
+elif answer == 'd':
       
       points -= 0
       print('This answer is false, your points: {}'.format(points))
 
 clear()
 
-print("Question number two, \nWhich country is ferrari's home country?")
+
 
 
 
